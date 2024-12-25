@@ -1,0 +1,7 @@
+PROGRAM Test;
+VAR
+  a: INTEGER;
+  b: INTEGER;
+BEGIN
+  a, b := 1, 'a';
+END.

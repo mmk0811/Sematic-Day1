@@ -1,0 +1,10 @@
+PROGRAM SUMTEST;
+VAR
+  x : INTEGER;
+  y : INTEGER;
+  z : INTEGER;
+BEGIN
+  x := 10;
+  y := 20;
+  z := sum x, y, x;  (* z will be 60 *)
+END.
